@@ -1,0 +1,36 @@
+# 팰린드롬수
+[:link: 팰린드롬수](https://www.acmicpc.net/problem/1259)  
+<br>
+
+### 풀이 방식
+```java
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int input = sc.nextInt();
+        while(input != 0) {
+            System.out.println(palindrome(input));
+            input = sc.nextInt();
+        }
+    }
+    
+    public static String palindrome(int number) {
+        String str = Integer.toString(number);
+        int len = str.length();
+        String result = "yes";
+        
+        if(len != 1) {
+            for(int i = 0; i < len; i++) {
+                if(str.charAt(i) != str.charAt(len - 1 - i)) {
+                    result = "no";
+                }
+            }
+        }
+        
+        return result;
+    }
+}
+```
