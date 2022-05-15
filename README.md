@@ -4,3 +4,4 @@
 2022/04/10 [백준 1996 지뢰찾기](https://www.acmicpc.net/problem/1996)  
 2022/04/17 [백준 1100 하얀 칸](https://www.acmicpc.net/problem/1100)  
 2022/05/15 [백준 2460 지능형 기차 2](https://www.acmicpc.net/problem/2460)  
+2022/05/22 [백준 1292 쉽게 푸는 문제](https://www.acmicpc.net/problem/1292)
